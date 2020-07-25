@@ -1,0 +1,73 @@
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Large devices (large desktops, 1200px and up) */
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:400,700,300|Quattrocento");
+
+html {
+  position: relative;
+  height: 100%; }
+
+img {
+  width: 100%; }
+
+body {
+  height: 100%;
+  font-family: "Comfortaa", Helvetica, Arial, sans-serif;
+  background-color: #000000;
+  /* Margin bottom by footer height */
+  margin-bottom: 60px; }
+
+
+p {
+  font-family: "Quattrocento", sans-serif;
+  color: #877614; }
+
+body > .container-fluid {
+  padding: 60px 15px 0; }
+
+
+.navbar {
+  height: 70px;
+  background-color: transparent;
+  background: transparent;
+  border: none;
+  color: #f0f0e6;
+  z-index: 100;
+  margin-bottom: 0;
+  border-radius: 0;
+  transition: background-color 1s ease 0s; }
+
+  .navbar-brand {
+    display: none;
+    margin-top: 10px;
+    color: #f0f0e6;
+    font-weight: 400; }
+  
+    .navbar-default .navbar-nav > li > a {
+        color: #f0f0e6;
+        font-weight: 500;
+        font-size: 1em;
+        text-transform: lowercase;
+        margin: 10px 5px 5px 5px;
+        border-radius: 5px; }
+    
+
+/* this helps to center the "hi, I'm johnson." */
+.cover {
+  padding: 10% 0 10% 0; }
+  .cover.top {
+    padding: 15% 0 10% 0;
+    height: 100vh;
+    display: flex;
+    background-color: #ffffff; }
+  .cover.bottom {
+    padding: 10% 0 10% 0; }
+
+#about {
+  background-color: #07374a; }
+  #about h2 {
+    color: #cdf22a; }
+
+
+
+
