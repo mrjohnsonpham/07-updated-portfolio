@@ -75,3 +75,22 @@ body > .container-fluid {
         width: 120px; }
 
 
+
+/* portfolio css styling and buttons  */
+        .portfolio-projects--desc {
+            margin-top: 10%;
+            margin-bottom: 10%; } }
+        .portfolio-projects--btn {
+          background: transparent;
+          color: #d8c3a5;
+          border: 1px solid #d8c3a5;
+          border-radius: 5px;
+          margin-bottom: 1.25em; }
+          .portfolio-projects--btn:hover {
+            background: #d8c3a5;
+            color: #f0f0e6; }
+        .portfolio-projects--image {
+          margin-bottom: 1.875em;
+          padding-top: 5%; }
+
+          
